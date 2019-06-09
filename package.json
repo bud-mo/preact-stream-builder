@@ -7,7 +7,7 @@
   "unpkg": "dist/index.umd.js",
   "source": "src/index.js",
   "scripts": {
-    "build": "microbundle build -f es --external rxjs,preact"
+    "build": "microbundle build --external rxjs,preact"
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import { Component } from 'preact';
 import { Subscription } from 'rxjs';
 
 export const ConnectionState = {
@@ -9,7 +9,7 @@ export const ConnectionState = {
     waiting: 'waiting'
 };
 
-export default class StreamBuilder extends Component {
+export class StreamBuilder extends Component {
 
     constructor(props) {
         this._subscription = Subscription.EMPTY;
