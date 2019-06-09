@@ -1,0 +1,35 @@
+{
+  "name": "preact-stream-builder",
+  "version": "1.0.0",
+  "description": "A preact StreamBuilder inspired by flutter",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "unpkg": "dist/index.umd.js",
+  "source": "src/index.js",
+  "scripts": {
+    "build": "microbundle --external rxjs,preact"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bud-mo/preact-stream-builder.git"
+  },
+  "keywords": [
+    "preact",
+    "flutter",
+    "rxjs",
+    "streambuilder",
+    "observable",
+    "factory"
+  ],
+  "author": "\"Michele Olivo\" <michele.olivo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bud-mo/preact-stream-builder/issues"
+  },
+  "homepage": "https://github.com/bud-mo/preact-stream-builder#readme",
+  "devDependencies": {
+    "microbundle": "^0.11.0",
+    "preact": "^8.4.2",
+    "rxjs": "^6.5.2"
+  }
+}
