@@ -16,7 +16,7 @@ npm install --save preact-stream-builder
 - `initialData`: _(Optional)_ The data passed down to the `builder` until the stream emit something.
 
 ## Example
-```jsx
+```js
 import { StreamBuilder } from 'preact-stream-buidler`;
 
 <StreamBuilder
