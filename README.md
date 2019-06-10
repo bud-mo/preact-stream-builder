@@ -16,7 +16,7 @@ npm install --save preact-stream-builder
 - `initialData`: _(Optional)_ The data passed down to the `builder` until the stream emit something.
 
 ## Example
-```javascript
+```jsx
 import { StreamBuilder } from 'preact-stream-buidler`;
 
 <StreamBuilder
@@ -30,4 +30,4 @@ import { StreamBuilder } from 'preact-stream-buidler`;
 MIT
 
 [1]: https://api.flutter.dev/flutter/widgets/StreamBuilder-class.html
-[3]: https://rxjs.dev/api/index/interface/Subscribable
+[2]: https://rxjs.dev/api/index/interface/Subscribable
